@@ -13,7 +13,7 @@ st.set_page_config(page_title="Seguimiento de Obra", layout="centered")
 # --- PORTADA Y LOGO ---
 # Reemplaza 'logo.png' con la ruta de tu imagen
 try:
-    st.image("logo.png", width=200)
+    st.image("6b07cb19-ba91-479a-a646-7c1a2663c633.jpg", width=200)
 except:
     st.title("🏗️ Seguimiento de Obra")
 
