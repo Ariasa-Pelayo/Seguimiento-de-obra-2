@@ -24,8 +24,8 @@ with st.form("formulario_obra"):
     nombre = st.text_input("Nombre del Trabajador")
     
     funcion = st.selectbox("Función realizada", [
-        "Albañilería", "Fontanería", "Electricidad", 
-        "Pintura", "Estructura", "Limpieza", "Otros"
+        "Trazado y marcado de cajas, tubos y cuadros", "Ejecución rozas en paredes y techos", "Montaje de soportes", 
+        "Colocación tubos y conductos", "Tendido de cables", "Identificación y etiquetado", "Conexionado de cables en bornes o regletas", "Instalación y conexionado de mecanismos", "Fijación de carril DIN y mecanismos en cuadro eléctrico", "Cableado interno del cuadro eléctrico", "Configuración de equipos domóticos y/o automáticos", "Conexionado de sensores/actuadores de equipos domóticos/automáticos", "Pruebas de continuidad", "Pruebas de aislamiento", "Verificación de tierras", "Programación del automatismo", Pruebas de funcionamiento"
     ])
     
     avance = st.select_slider(
