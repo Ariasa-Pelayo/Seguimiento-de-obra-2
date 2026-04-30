@@ -72,14 +72,3 @@ if st.session_state.datos_reporte:
         file_name=f"reporte_obra_{fecha}.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
-
-    # --- ENVIAR POR CORREO (Configuración) ---
-    st.markdown("---")
-    st.subheader("Enviar informe por Email")
-    email_destino = st.text_input("Correo electrónico del receptor")
-    
-    if st.button("📧 Enviar por Correo"):
-        # NOTA: Para que esto funcione en la nube, necesitas configurar 
-        # SMTP (ej. Gmail) y usar "Secrets" en Streamlit para la contraseña.
-        st.warning("La función de envío requiere configuración de servidor SMTP.")
-        # Aquí iría la lógica de smtplib (ver explicación abajo)
